@@ -7,14 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D551A3471F307C8D005144F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D551A3461F307C8D005144F5 /* main.m */; };
-		D551A34A1F307C8D005144F5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D551A3491F307C8D005144F5 /* AppDelegate.m */; };
-		D551A34D1F307C8D005144F5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D551A34C1F307C8D005144F5 /* ViewController.m */; };
-		D551A3501F307C8D005144F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D551A34E1F307C8D005144F5 /* Main.storyboard */; };
 		D551A3521F307C8D005144F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D551A3511F307C8D005144F5 /* Assets.xcassets */; };
-		D551A3551F307C8D005144F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D551A3531F307C8D005144F5 /* LaunchScreen.storyboard */; };
 		D551A3601F307C8D005144F5 /* XquHome_TeacherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D551A35F1F307C8D005144F5 /* XquHome_TeacherTests.m */; };
 		D551A36B1F307C8D005144F5 /* XquHome_TeacherUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D551A36A1F307C8D005144F5 /* XquHome_TeacherUITests.m */; };
+		D551A3C21F307CD2005144F5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D551A37B1F307CD2005144F5 /* AppDelegate.m */; };
+		D551A3C31F307CD2005144F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D551A37D1F307CD2005144F5 /* main.m */; };
+		D551A3C51F307CD2005144F5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D551A39A1F307CD2005144F5 /* ViewController.m */; };
+		D551A3C81F308114005144F5 /* RYNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D551A3C71F308114005144F5 /* RYNavigationController.m */; };
+		D551A3CF1F308569005144F5 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = D551A3CE1F308569005144F5 /* UIImage+Extension.m */; };
+		D551A3D21F30880E005144F5 /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = D551A3D11F30880E005144F5 /* UIColor+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,21 +37,28 @@
 
 /* Begin PBXFileReference section */
 		D551A3421F307C8D005144F5 /* XquHome_Teacher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XquHome_Teacher.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D551A3461F307C8D005144F5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D551A3481F307C8D005144F5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		D551A3491F307C8D005144F5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D551A34B1F307C8D005144F5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D551A34C1F307C8D005144F5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		D551A34F1F307C8D005144F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D551A3511F307C8D005144F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D551A3541F307C8D005144F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		D551A3561F307C8D005144F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D551A35B1F307C8D005144F5 /* XquHome_TeacherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XquHome_TeacherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D551A35F1F307C8D005144F5 /* XquHome_TeacherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XquHome_TeacherTests.m; sourceTree = "<group>"; };
 		D551A3611F307C8D005144F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D551A3661F307C8D005144F5 /* XquHome_TeacherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XquHome_TeacherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D551A36A1F307C8D005144F5 /* XquHome_TeacherUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XquHome_TeacherUITests.m; sourceTree = "<group>"; };
 		D551A36C1F307C8D005144F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D551A37A1F307CD2005144F5 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D551A37B1F307CD2005144F5 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D551A37D1F307CD2005144F5 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D551A38E1F307CD2005144F5 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D551A3991F307CD2005144F5 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D551A39A1F307CD2005144F5 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D551A3C61F308114005144F5 /* RYNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYNavigationController.h; sourceTree = "<group>"; };
+		D551A3C71F308114005144F5 /* RYNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYNavigationController.m; sourceTree = "<group>"; };
+		D551A3C91F308279005144F5 /* XquHomePrefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XquHomePrefix.pch; sourceTree = "<group>"; };
+		D551A3CA1F3083A3005144F5 /* RYApplicationMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYApplicationMacro.h; sourceTree = "<group>"; };
+		D551A3CB1F30841A005144F5 /* RYNavigationMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYNavigationMacro.h; sourceTree = "<group>"; };
+		D551A3CD1F308569005144F5 /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		D551A3CE1F308569005144F5 /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
+		D551A3D01F30880E005144F5 /* UIColor+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extension.h"; sourceTree = "<group>"; };
+		D551A3D11F30880E005144F5 /* UIColor+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +109,7 @@
 		D551A3441F307C8D005144F5 /* XquHome_Teacher */ = {
 			isa = PBXGroup;
 			children = (
-				D551A3481F307C8D005144F5 /* AppDelegate.h */,
-				D551A3491F307C8D005144F5 /* AppDelegate.m */,
-				D551A34B1F307C8D005144F5 /* ViewController.h */,
-				D551A34C1F307C8D005144F5 /* ViewController.m */,
-				D551A34E1F307C8D005144F5 /* Main.storyboard */,
-				D551A3511F307C8D005144F5 /* Assets.xcassets */,
-				D551A3531F307C8D005144F5 /* LaunchScreen.storyboard */,
-				D551A3561F307C8D005144F5 /* Info.plist */,
+				D551A3781F307CD2005144F5 /* Classes */,
 				D551A3451F307C8D005144F5 /* Supporting Files */,
 			);
 			path = XquHome_Teacher;
@@ -117,7 +118,7 @@
 		D551A3451F307C8D005144F5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				D551A3461F307C8D005144F5 /* main.m */,
+				D551A3511F307C8D005144F5 /* Assets.xcassets */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -138,6 +139,564 @@
 				D551A36C1F307C8D005144F5 /* Info.plist */,
 			);
 			path = XquHome_TeacherUITests;
+			sourceTree = "<group>";
+		};
+		D551A3781F307CD2005144F5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D551A3791F307CD2005144F5 /* AppDelegate */,
+				D551A37C1F307CD2005144F5 /* AppMain */,
+				D551A37E1F307CD2005144F5 /* General */,
+				D551A3851F307CD2005144F5 /* Macros */,
+				D551A3881F307CD2005144F5 /* Resuorce */,
+				D551A3901F307CD2005144F5 /* Sections */,
+				D551A3C01F307CD2005144F5 /* Utilities */,
+				D551A3C11F307CD2005144F5 /* Venders */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D551A3791F307CD2005144F5 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				D551A37A1F307CD2005144F5 /* AppDelegate.h */,
+				D551A37B1F307CD2005144F5 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		D551A37C1F307CD2005144F5 /* AppMain */ = {
+			isa = PBXGroup;
+			children = (
+				D551A37D1F307CD2005144F5 /* main.m */,
+			);
+			path = AppMain;
+			sourceTree = "<group>";
+		};
+		D551A37E1F307CD2005144F5 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				D551A37F1F307CD2005144F5 /* Categories */,
+				D551A3801F307CD2005144F5 /* Controllers */,
+				D551A3811F307CD2005144F5 /* Models */,
+				D551A3821F307CD2005144F5 /* Presenters */,
+				D551A3831F307CD2005144F5 /* Services */,
+				D551A3841F307CD2005144F5 /* Views */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		D551A37F1F307CD2005144F5 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				D551A3CD1F308569005144F5 /* UIImage+Extension.h */,
+				D551A3CE1F308569005144F5 /* UIImage+Extension.m */,
+				D551A3D01F30880E005144F5 /* UIColor+Extension.h */,
+				D551A3D11F30880E005144F5 /* UIColor+Extension.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		D551A3801F307CD2005144F5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D551A3C61F308114005144F5 /* RYNavigationController.h */,
+				D551A3C71F308114005144F5 /* RYNavigationController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D551A3811F307CD2005144F5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D551A3821F307CD2005144F5 /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenters;
+			sourceTree = "<group>";
+		};
+		D551A3831F307CD2005144F5 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		D551A3841F307CD2005144F5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D551A3851F307CD2005144F5 /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+				D551A3861F307CD2005144F5 /* Consts */,
+				D551A3871F307CD2005144F5 /* Macros */,
+				D551A3C91F308279005144F5 /* XquHomePrefix.pch */,
+			);
+			path = Macros;
+			sourceTree = "<group>";
+		};
+		D551A3861F307CD2005144F5 /* Consts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Consts;
+			sourceTree = "<group>";
+		};
+		D551A3871F307CD2005144F5 /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+				D551A3CA1F3083A3005144F5 /* RYApplicationMacro.h */,
+				D551A3CB1F30841A005144F5 /* RYNavigationMacro.h */,
+			);
+			path = Macros;
+			sourceTree = "<group>";
+		};
+		D551A3881F307CD2005144F5 /* Resuorce */ = {
+			isa = PBXGroup;
+			children = (
+				D551A3891F307CD2005144F5 /* Audios */,
+				D551A38A1F307CD2005144F5 /* Files */,
+				D551A38F1F307CD2005144F5 /* Videos */,
+			);
+			path = Resuorce;
+			sourceTree = "<group>";
+		};
+		D551A3891F307CD2005144F5 /* Audios */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Audios;
+			sourceTree = "<group>";
+		};
+		D551A38A1F307CD2005144F5 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				D551A38B1F307CD2005144F5 /* Images */,
+				D551A38C1F307CD2005144F5 /* Locals */,
+				D551A38D1F307CD2005144F5 /* Plists */,
+			);
+			path = Files;
+			sourceTree = "<group>";
+		};
+		D551A38B1F307CD2005144F5 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		D551A38C1F307CD2005144F5 /* Locals */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Locals;
+			sourceTree = "<group>";
+		};
+		D551A38D1F307CD2005144F5 /* Plists */ = {
+			isa = PBXGroup;
+			children = (
+				D551A38E1F307CD2005144F5 /* Info.plist */,
+			);
+			path = Plists;
+			sourceTree = "<group>";
+		};
+		D551A38F1F307CD2005144F5 /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Videos;
+			sourceTree = "<group>";
+		};
+		D551A3901F307CD2005144F5 /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				D551A3911F307CD2005144F5 /* Home */,
+				D551A39C1F307CD2005144F5 /* Login */,
+				D551A3A51F307CD2005144F5 /* NewFeature */,
+				D551A3AE1F307CD2005144F5 /* Order */,
+				D551A3B71F307CD2005144F5 /* Users */,
+			);
+			path = Sections;
+			sourceTree = "<group>";
+		};
+		D551A3911F307CD2005144F5 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				D551A3921F307CD2005144F5 /* DataServices */,
+				D551A3931F307CD2005144F5 /* Models */,
+				D551A3961F307CD2005144F5 /* Presenters */,
+				D551A3971F307CD2005144F5 /* ViewControllers */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		D551A3921F307CD2005144F5 /* DataServices */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataServices;
+			sourceTree = "<group>";
+		};
+		D551A3931F307CD2005144F5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D551A3941F307CD2005144F5 /* RequestModel */,
+				D551A3951F307CD2005144F5 /* ResponseModel */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D551A3941F307CD2005144F5 /* RequestModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RequestModel;
+			sourceTree = "<group>";
+		};
+		D551A3951F307CD2005144F5 /* ResponseModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ResponseModel;
+			sourceTree = "<group>";
+		};
+		D551A3961F307CD2005144F5 /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenters;
+			sourceTree = "<group>";
+		};
+		D551A3971F307CD2005144F5 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D551A3981F307CD2005144F5 /* Controllers */,
+				D551A39B1F307CD2005144F5 /* Views */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D551A3981F307CD2005144F5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D551A3991F307CD2005144F5 /* ViewController.h */,
+				D551A39A1F307CD2005144F5 /* ViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D551A39B1F307CD2005144F5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D551A39C1F307CD2005144F5 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				D551A39D1F307CD2005144F5 /* DataServices */,
+				D551A39E1F307CD2005144F5 /* Models */,
+				D551A3A11F307CD2005144F5 /* Presenters */,
+				D551A3A21F307CD2005144F5 /* ViewControllers */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		D551A39D1F307CD2005144F5 /* DataServices */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataServices;
+			sourceTree = "<group>";
+		};
+		D551A39E1F307CD2005144F5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D551A39F1F307CD2005144F5 /* RequestModel */,
+				D551A3A01F307CD2005144F5 /* ResponseModel */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D551A39F1F307CD2005144F5 /* RequestModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RequestModel;
+			sourceTree = "<group>";
+		};
+		D551A3A01F307CD2005144F5 /* ResponseModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ResponseModel;
+			sourceTree = "<group>";
+		};
+		D551A3A11F307CD2005144F5 /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenters;
+			sourceTree = "<group>";
+		};
+		D551A3A21F307CD2005144F5 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D551A3A31F307CD2005144F5 /* Controllers */,
+				D551A3A41F307CD2005144F5 /* Views */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D551A3A31F307CD2005144F5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D551A3A41F307CD2005144F5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D551A3A51F307CD2005144F5 /* NewFeature */ = {
+			isa = PBXGroup;
+			children = (
+				D551A3A61F307CD2005144F5 /* DataServices */,
+				D551A3A71F307CD2005144F5 /* Models */,
+				D551A3AA1F307CD2005144F5 /* Presenters */,
+				D551A3AB1F307CD2005144F5 /* ViewControllers */,
+			);
+			path = NewFeature;
+			sourceTree = "<group>";
+		};
+		D551A3A61F307CD2005144F5 /* DataServices */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataServices;
+			sourceTree = "<group>";
+		};
+		D551A3A71F307CD2005144F5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D551A3A81F307CD2005144F5 /* RequestModel */,
+				D551A3A91F307CD2005144F5 /* ResponseModel */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D551A3A81F307CD2005144F5 /* RequestModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RequestModel;
+			sourceTree = "<group>";
+		};
+		D551A3A91F307CD2005144F5 /* ResponseModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ResponseModel;
+			sourceTree = "<group>";
+		};
+		D551A3AA1F307CD2005144F5 /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenters;
+			sourceTree = "<group>";
+		};
+		D551A3AB1F307CD2005144F5 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D551A3AC1F307CD2005144F5 /* Controllers */,
+				D551A3AD1F307CD2005144F5 /* Views */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D551A3AC1F307CD2005144F5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D551A3AD1F307CD2005144F5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D551A3AE1F307CD2005144F5 /* Order */ = {
+			isa = PBXGroup;
+			children = (
+				D551A3AF1F307CD2005144F5 /* DataServices */,
+				D551A3B01F307CD2005144F5 /* Models */,
+				D551A3B31F307CD2005144F5 /* Presenters */,
+				D551A3B41F307CD2005144F5 /* ViewControllers */,
+			);
+			path = Order;
+			sourceTree = "<group>";
+		};
+		D551A3AF1F307CD2005144F5 /* DataServices */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataServices;
+			sourceTree = "<group>";
+		};
+		D551A3B01F307CD2005144F5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D551A3B11F307CD2005144F5 /* RequestModel */,
+				D551A3B21F307CD2005144F5 /* ResponseModel */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D551A3B11F307CD2005144F5 /* RequestModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RequestModel;
+			sourceTree = "<group>";
+		};
+		D551A3B21F307CD2005144F5 /* ResponseModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ResponseModel;
+			sourceTree = "<group>";
+		};
+		D551A3B31F307CD2005144F5 /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenters;
+			sourceTree = "<group>";
+		};
+		D551A3B41F307CD2005144F5 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D551A3B51F307CD2005144F5 /* Controllers */,
+				D551A3B61F307CD2005144F5 /* Views */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D551A3B51F307CD2005144F5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D551A3B61F307CD2005144F5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D551A3B71F307CD2005144F5 /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				D551A3B81F307CD2005144F5 /* DataServices */,
+				D551A3B91F307CD2005144F5 /* Models */,
+				D551A3BC1F307CD2005144F5 /* Presenters */,
+				D551A3BD1F307CD2005144F5 /* ViewControllers */,
+			);
+			path = Users;
+			sourceTree = "<group>";
+		};
+		D551A3B81F307CD2005144F5 /* DataServices */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataServices;
+			sourceTree = "<group>";
+		};
+		D551A3B91F307CD2005144F5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D551A3BA1F307CD2005144F5 /* RequestModel */,
+				D551A3BB1F307CD2005144F5 /* ResponseModel */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D551A3BA1F307CD2005144F5 /* RequestModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RequestModel;
+			sourceTree = "<group>";
+		};
+		D551A3BB1F307CD2005144F5 /* ResponseModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ResponseModel;
+			sourceTree = "<group>";
+		};
+		D551A3BC1F307CD2005144F5 /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenters;
+			sourceTree = "<group>";
+		};
+		D551A3BD1F307CD2005144F5 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D551A3BE1F307CD2005144F5 /* Controllers */,
+				D551A3BF1F307CD2005144F5 /* Views */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D551A3BE1F307CD2005144F5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D551A3BF1F307CD2005144F5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D551A3C01F307CD2005144F5 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		D551A3C11F307CD2005144F5 /* Venders */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Venders;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,9 +808,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D551A3551F307C8D005144F5 /* LaunchScreen.storyboard in Resources */,
 				D551A3521F307C8D005144F5 /* Assets.xcassets in Resources */,
-				D551A3501F307C8D005144F5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,9 +833,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D551A34D1F307C8D005144F5 /* ViewController.m in Sources */,
-				D551A34A1F307C8D005144F5 /* AppDelegate.m in Sources */,
-				D551A3471F307C8D005144F5 /* main.m in Sources */,
+				D551A3CF1F308569005144F5 /* UIImage+Extension.m in Sources */,
+				D551A3D21F30880E005144F5 /* UIColor+Extension.m in Sources */,
+				D551A3C51F307CD2005144F5 /* ViewController.m in Sources */,
+				D551A3C31F307CD2005144F5 /* main.m in Sources */,
+				D551A3C81F308114005144F5 /* RYNavigationController.m in Sources */,
+				D551A3C21F307CD2005144F5 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,25 +873,6 @@
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		D551A34E1F307C8D005144F5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D551A34F1F307C8D005144F5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		D551A3531F307C8D005144F5 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D551A3541F307C8D005144F5 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
 		D551A36D1F307C8D005144F5 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -364,6 +905,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = /Users/Rainer/Documents/WorkSpace/XcodeSpace/NewXquHome/XquHome_Teacher/XquHome_Teacher/Classes/Macros/XquHomePrefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -374,7 +916,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -410,13 +952,14 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = /Users/Rainer/Documents/WorkSpace/XcodeSpace/NewXquHome/XquHome_Teacher/XquHome_Teacher/Classes/Macros/XquHomePrefix.pch;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -427,8 +970,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = TYM245E8PV;
-				INFOPLIST_FILE = XquHome_Teacher/Info.plist;
+				GCC_PREFIX_HEADER = /Users/Rainer/Documents/WorkSpace/XcodeSpace/NewXquHome/XquHome_Teacher/XquHome_Teacher/Classes/Macros/XquHomePrefix.pch;
+				INFOPLIST_FILE = XquHome_Teacher/Classes/Resuorce/Files/Plists/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.xquhome.XquHome-Teacher";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -439,8 +985,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = TYM245E8PV;
-				INFOPLIST_FILE = XquHome_Teacher/Info.plist;
+				GCC_PREFIX_HEADER = /Users/Rainer/Documents/WorkSpace/XcodeSpace/NewXquHome/XquHome_Teacher/XquHome_Teacher/Classes/Macros/XquHomePrefix.pch;
+				INFOPLIST_FILE = XquHome_Teacher/Classes/Resuorce/Files/Plists/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.xquhome.XquHome-Teacher";
 				PRODUCT_NAME = "$(TARGET_NAME)";

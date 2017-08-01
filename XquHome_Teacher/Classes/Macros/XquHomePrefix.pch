@@ -1,0 +1,20 @@
+//
+//  XquHomePrefix.pch
+//  XquHome_Teacher
+//
+//  Created by Rainer on 2017/8/1.
+//  Copyright © 2017年 Rainer. All rights reserved.
+//
+
+#ifndef XquHomePrefix_h
+#define XquHomePrefix_h
+
+// 1.系统类的工具分类
+#import "UIImage+Extension.h"
+#import "UIColor+Extension.h"
+
+// 2.程序应用级别宏键
+#import "RYApplicationMacro.h"
+#import "RYNavigationMacro.h"
+
+#endif /* XquHomePrefix_h */

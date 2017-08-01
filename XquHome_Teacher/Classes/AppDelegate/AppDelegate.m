@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
 
 @interface AppDelegate ()
 
@@ -15,8 +16,23 @@
 @implementation AppDelegate
 
 
+/**
+ APP启动
+ 
+ @param application 主应用
+ @param launchOptions 启动信息
+ @return 是否启动
+ */
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    // 1.创建一个window对象
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    
+    // 2.设置window的根控制器为TabBarController
+    self.window.rootViewController = [[ViewController alloc] init];
+    
+    // 3.显示窗口
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
