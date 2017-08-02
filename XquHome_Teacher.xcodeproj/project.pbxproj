@@ -7,12 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		001D17FF8BCBE2D5A5D03FA0 /* libPods-XquHome_Teacher.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18103978FF319FB01F2BA9A8 /* libPods-XquHome_Teacher.a */; };
+		D5131E5A1F31A4BD009543AD /* RYLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5131E591F31A4BD009543AD /* RYLoginViewController.m */; };
+		D5131E5D1F31A4DF009543AD /* RYHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5131E5C1F31A4DF009543AD /* RYHomeViewController.m */; };
+		D5131E601F31A4F9009543AD /* RYOrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5131E5F1F31A4F9009543AD /* RYOrderViewController.m */; };
+		D5131E631F31A506009543AD /* RYUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5131E621F31A506009543AD /* RYUserViewController.m */; };
+		D5131E661F31A5A1009543AD /* RYTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5131E651F31A5A1009543AD /* RYTabBarController.m */; };
+		D5131E691F31A5EF009543AD /* RYTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = D5131E681F31A5EF009543AD /* RYTabBar.m */; };
+		D5131E6C1F31A72C009543AD /* RYBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D5131E6B1F31A72C009543AD /* RYBarButton.m */; };
+		D5131E6F1F31A771009543AD /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = D5131E6E1F31A771009543AD /* UIView+Extension.m */; };
+		D5131E721F31C212009543AD /* RYChoseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5131E711F31C212009543AD /* RYChoseViewController.m */; };
+		D5131E751F31C72A009543AD /* RYNewFeatureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5131E741F31C72A009543AD /* RYNewFeatureViewController.m */; };
+		D5131E781F31C793009543AD /* RYSaveDataLocationUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = D5131E771F31C793009543AD /* RYSaveDataLocationUtil.m */; };
+		D5131E7B1F31CE6A009543AD /* RYNewFeatureCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D5131E7A1F31CE6A009543AD /* RYNewFeatureCollectionViewCell.m */; };
 		D551A3521F307C8D005144F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D551A3511F307C8D005144F5 /* Assets.xcassets */; };
 		D551A3601F307C8D005144F5 /* XquHome_TeacherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D551A35F1F307C8D005144F5 /* XquHome_TeacherTests.m */; };
 		D551A36B1F307C8D005144F5 /* XquHome_TeacherUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D551A36A1F307C8D005144F5 /* XquHome_TeacherUITests.m */; };
 		D551A3C21F307CD2005144F5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D551A37B1F307CD2005144F5 /* AppDelegate.m */; };
 		D551A3C31F307CD2005144F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D551A37D1F307CD2005144F5 /* main.m */; };
-		D551A3C51F307CD2005144F5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D551A39A1F307CD2005144F5 /* ViewController.m */; };
 		D551A3C81F308114005144F5 /* RYNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D551A3C71F308114005144F5 /* RYNavigationController.m */; };
 		D551A3CF1F308569005144F5 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = D551A3CE1F308569005144F5 /* UIImage+Extension.m */; };
 		D551A3D21F30880E005144F5 /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = D551A3D11F30880E005144F5 /* UIColor+Extension.m */; };
@@ -36,6 +48,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18103978FF319FB01F2BA9A8 /* libPods-XquHome_Teacher.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XquHome_Teacher.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		27476F8BF253027A8B89E7BE /* Pods-XquHome_Teacher.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XquHome_Teacher.release.xcconfig"; path = "Pods/Target Support Files/Pods-XquHome_Teacher/Pods-XquHome_Teacher.release.xcconfig"; sourceTree = "<group>"; };
+		BFEDC0E36DDF2B2D282F4442 /* Pods-XquHome_Teacher.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XquHome_Teacher.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XquHome_Teacher/Pods-XquHome_Teacher.debug.xcconfig"; sourceTree = "<group>"; };
+		D5131E581F31A4BD009543AD /* RYLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYLoginViewController.h; sourceTree = "<group>"; };
+		D5131E591F31A4BD009543AD /* RYLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYLoginViewController.m; sourceTree = "<group>"; };
+		D5131E5B1F31A4DF009543AD /* RYHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYHomeViewController.h; sourceTree = "<group>"; };
+		D5131E5C1F31A4DF009543AD /* RYHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYHomeViewController.m; sourceTree = "<group>"; };
+		D5131E5E1F31A4F9009543AD /* RYOrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYOrderViewController.h; sourceTree = "<group>"; };
+		D5131E5F1F31A4F9009543AD /* RYOrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYOrderViewController.m; sourceTree = "<group>"; };
+		D5131E611F31A506009543AD /* RYUserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYUserViewController.h; sourceTree = "<group>"; };
+		D5131E621F31A506009543AD /* RYUserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYUserViewController.m; sourceTree = "<group>"; };
+		D5131E641F31A5A1009543AD /* RYTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYTabBarController.h; sourceTree = "<group>"; };
+		D5131E651F31A5A1009543AD /* RYTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYTabBarController.m; sourceTree = "<group>"; };
+		D5131E671F31A5EF009543AD /* RYTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYTabBar.h; sourceTree = "<group>"; };
+		D5131E681F31A5EF009543AD /* RYTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYTabBar.m; sourceTree = "<group>"; };
+		D5131E6A1F31A72C009543AD /* RYBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYBarButton.h; sourceTree = "<group>"; };
+		D5131E6B1F31A72C009543AD /* RYBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYBarButton.m; sourceTree = "<group>"; };
+		D5131E6D1F31A771009543AD /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		D5131E6E1F31A771009543AD /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		D5131E701F31C212009543AD /* RYChoseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYChoseViewController.h; sourceTree = "<group>"; };
+		D5131E711F31C212009543AD /* RYChoseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYChoseViewController.m; sourceTree = "<group>"; };
+		D5131E731F31C72A009543AD /* RYNewFeatureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYNewFeatureViewController.h; sourceTree = "<group>"; };
+		D5131E741F31C72A009543AD /* RYNewFeatureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYNewFeatureViewController.m; sourceTree = "<group>"; };
+		D5131E761F31C793009543AD /* RYSaveDataLocationUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYSaveDataLocationUtil.h; sourceTree = "<group>"; };
+		D5131E771F31C793009543AD /* RYSaveDataLocationUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYSaveDataLocationUtil.m; sourceTree = "<group>"; };
+		D5131E791F31CE6A009543AD /* RYNewFeatureCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYNewFeatureCollectionViewCell.h; sourceTree = "<group>"; };
+		D5131E7A1F31CE6A009543AD /* RYNewFeatureCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYNewFeatureCollectionViewCell.m; sourceTree = "<group>"; };
 		D551A3421F307C8D005144F5 /* XquHome_Teacher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XquHome_Teacher.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D551A3511F307C8D005144F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D551A35B1F307C8D005144F5 /* XquHome_TeacherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XquHome_TeacherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,8 +87,6 @@
 		D551A37B1F307CD2005144F5 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D551A37D1F307CD2005144F5 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D551A38E1F307CD2005144F5 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D551A3991F307CD2005144F5 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D551A39A1F307CD2005144F5 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D551A3C61F308114005144F5 /* RYNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYNavigationController.h; sourceTree = "<group>"; };
 		D551A3C71F308114005144F5 /* RYNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYNavigationController.m; sourceTree = "<group>"; };
 		D551A3C91F308279005144F5 /* XquHomePrefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XquHomePrefix.pch; sourceTree = "<group>"; };
@@ -66,6 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				001D17FF8BCBE2D5A5D03FA0 /* libPods-XquHome_Teacher.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +124,350 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2FA5B388137C13D5BE5DCC05 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18103978FF319FB01F2BA9A8 /* libPods-XquHome_Teacher.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB2F3ADA442376B52CC4B2FC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BFEDC0E36DDF2B2D282F4442 /* Pods-XquHome_Teacher.debug.xcconfig */,
+				27476F8BF253027A8B89E7BE /* Pods-XquHome_Teacher.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D5131E301F31A412009543AD /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				D5131E311F31A412009543AD /* Controllers */,
+				D5131E321F31A412009543AD /* Models */,
+				D5131E351F31A412009543AD /* Presenters */,
+				D5131E361F31A412009543AD /* Services */,
+				D5131E371F31A412009543AD /* Views */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		D5131E311F31A412009543AD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D5131E5B1F31A4DF009543AD /* RYHomeViewController.h */,
+				D5131E5C1F31A4DF009543AD /* RYHomeViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D5131E321F31A412009543AD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D5131E331F31A412009543AD /* RequestModel */,
+				D5131E341F31A412009543AD /* ResponseModel */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D5131E331F31A412009543AD /* RequestModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RequestModel;
+			sourceTree = "<group>";
+		};
+		D5131E341F31A412009543AD /* ResponseModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ResponseModel;
+			sourceTree = "<group>";
+		};
+		D5131E351F31A412009543AD /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenters;
+			sourceTree = "<group>";
+		};
+		D5131E361F31A412009543AD /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		D5131E371F31A412009543AD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D5131E381F31A412009543AD /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				D5131E391F31A412009543AD /* Controllers */,
+				D5131E3A1F31A412009543AD /* Models */,
+				D5131E3D1F31A412009543AD /* Presenters */,
+				D5131E3E1F31A412009543AD /* Services */,
+				D5131E3F1F31A412009543AD /* Views */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		D5131E391F31A412009543AD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D5131E581F31A4BD009543AD /* RYLoginViewController.h */,
+				D5131E591F31A4BD009543AD /* RYLoginViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D5131E3A1F31A412009543AD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D5131E3B1F31A412009543AD /* RequestModel */,
+				D5131E3C1F31A412009543AD /* ResponseModel */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D5131E3B1F31A412009543AD /* RequestModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RequestModel;
+			sourceTree = "<group>";
+		};
+		D5131E3C1F31A412009543AD /* ResponseModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ResponseModel;
+			sourceTree = "<group>";
+		};
+		D5131E3D1F31A412009543AD /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenters;
+			sourceTree = "<group>";
+		};
+		D5131E3E1F31A412009543AD /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		D5131E3F1F31A412009543AD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D5131E401F31A412009543AD /* NewFeature */ = {
+			isa = PBXGroup;
+			children = (
+				D5131E411F31A412009543AD /* Controllers */,
+				D5131E421F31A412009543AD /* Models */,
+				D5131E451F31A412009543AD /* Presenters */,
+				D5131E461F31A412009543AD /* Services */,
+				D5131E471F31A412009543AD /* Views */,
+			);
+			path = NewFeature;
+			sourceTree = "<group>";
+		};
+		D5131E411F31A412009543AD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D5131E731F31C72A009543AD /* RYNewFeatureViewController.h */,
+				D5131E741F31C72A009543AD /* RYNewFeatureViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D5131E421F31A412009543AD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D5131E431F31A412009543AD /* RequestModel */,
+				D5131E441F31A412009543AD /* ResponseModel */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D5131E431F31A412009543AD /* RequestModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RequestModel;
+			sourceTree = "<group>";
+		};
+		D5131E441F31A412009543AD /* ResponseModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ResponseModel;
+			sourceTree = "<group>";
+		};
+		D5131E451F31A412009543AD /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenters;
+			sourceTree = "<group>";
+		};
+		D5131E461F31A412009543AD /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		D5131E471F31A412009543AD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D5131E791F31CE6A009543AD /* RYNewFeatureCollectionViewCell.h */,
+				D5131E7A1F31CE6A009543AD /* RYNewFeatureCollectionViewCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D5131E481F31A412009543AD /* Order */ = {
+			isa = PBXGroup;
+			children = (
+				D5131E491F31A412009543AD /* Controllers */,
+				D5131E4A1F31A412009543AD /* Models */,
+				D5131E4D1F31A412009543AD /* Presenters */,
+				D5131E4E1F31A412009543AD /* Services */,
+				D5131E4F1F31A412009543AD /* Views */,
+			);
+			path = Order;
+			sourceTree = "<group>";
+		};
+		D5131E491F31A412009543AD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D5131E5E1F31A4F9009543AD /* RYOrderViewController.h */,
+				D5131E5F1F31A4F9009543AD /* RYOrderViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D5131E4A1F31A412009543AD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D5131E4B1F31A412009543AD /* RequestModel */,
+				D5131E4C1F31A412009543AD /* ResponseModel */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D5131E4B1F31A412009543AD /* RequestModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RequestModel;
+			sourceTree = "<group>";
+		};
+		D5131E4C1F31A412009543AD /* ResponseModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ResponseModel;
+			sourceTree = "<group>";
+		};
+		D5131E4D1F31A412009543AD /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenters;
+			sourceTree = "<group>";
+		};
+		D5131E4E1F31A412009543AD /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		D5131E4F1F31A412009543AD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D5131E501F31A412009543AD /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				D5131E511F31A412009543AD /* Controllers */,
+				D5131E521F31A412009543AD /* Models */,
+				D5131E551F31A412009543AD /* Presenters */,
+				D5131E561F31A412009543AD /* Services */,
+				D5131E571F31A412009543AD /* Views */,
+			);
+			path = Users;
+			sourceTree = "<group>";
+		};
+		D5131E511F31A412009543AD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D5131E611F31A506009543AD /* RYUserViewController.h */,
+				D5131E621F31A506009543AD /* RYUserViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D5131E521F31A412009543AD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D5131E531F31A412009543AD /* RequestModel */,
+				D5131E541F31A412009543AD /* ResponseModel */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D5131E531F31A412009543AD /* RequestModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RequestModel;
+			sourceTree = "<group>";
+		};
+		D5131E541F31A412009543AD /* ResponseModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ResponseModel;
+			sourceTree = "<group>";
+		};
+		D5131E551F31A412009543AD /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenters;
+			sourceTree = "<group>";
+		};
+		D5131E561F31A412009543AD /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		D5131E571F31A412009543AD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		D551A3391F307C8D005144F5 = {
 			isa = PBXGroup;
 			children = (
@@ -93,6 +475,8 @@
 				D551A35E1F307C8D005144F5 /* XquHome_TeacherTests */,
 				D551A3691F307C8D005144F5 /* XquHome_TeacherUITests */,
 				D551A3431F307C8D005144F5 /* Products */,
+				CB2F3ADA442376B52CC4B2FC /* Pods */,
+				2FA5B388137C13D5BE5DCC05 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -193,6 +577,8 @@
 				D551A3CE1F308569005144F5 /* UIImage+Extension.m */,
 				D551A3D01F30880E005144F5 /* UIColor+Extension.h */,
 				D551A3D11F30880E005144F5 /* UIColor+Extension.m */,
+				D5131E6D1F31A771009543AD /* UIView+Extension.h */,
+				D5131E6E1F31A771009543AD /* UIView+Extension.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -202,6 +588,8 @@
 			children = (
 				D551A3C61F308114005144F5 /* RYNavigationController.h */,
 				D551A3C71F308114005144F5 /* RYNavigationController.m */,
+				D5131E641F31A5A1009543AD /* RYTabBarController.h */,
+				D5131E651F31A5A1009543AD /* RYTabBarController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -230,6 +618,10 @@
 		D551A3841F307CD2005144F5 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				D5131E671F31A5EF009543AD /* RYTabBar.h */,
+				D5131E681F31A5EF009543AD /* RYTabBar.m */,
+				D5131E6A1F31A72C009543AD /* RYBarButton.h */,
+				D5131E6B1F31A72C009543AD /* RYBarButton.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -319,375 +711,22 @@
 		D551A3901F307CD2005144F5 /* Sections */ = {
 			isa = PBXGroup;
 			children = (
-				D551A3911F307CD2005144F5 /* Home */,
-				D551A39C1F307CD2005144F5 /* Login */,
-				D551A3A51F307CD2005144F5 /* NewFeature */,
-				D551A3AE1F307CD2005144F5 /* Order */,
-				D551A3B71F307CD2005144F5 /* Users */,
+				D5131E381F31A412009543AD /* Login */,
+				D5131E301F31A412009543AD /* Home */,
+				D5131E481F31A412009543AD /* Order */,
+				D5131E501F31A412009543AD /* Users */,
+				D5131E401F31A412009543AD /* NewFeature */,
 			);
 			path = Sections;
-			sourceTree = "<group>";
-		};
-		D551A3911F307CD2005144F5 /* Home */ = {
-			isa = PBXGroup;
-			children = (
-				D551A3921F307CD2005144F5 /* DataServices */,
-				D551A3931F307CD2005144F5 /* Models */,
-				D551A3961F307CD2005144F5 /* Presenters */,
-				D551A3971F307CD2005144F5 /* ViewControllers */,
-			);
-			path = Home;
-			sourceTree = "<group>";
-		};
-		D551A3921F307CD2005144F5 /* DataServices */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = DataServices;
-			sourceTree = "<group>";
-		};
-		D551A3931F307CD2005144F5 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				D551A3941F307CD2005144F5 /* RequestModel */,
-				D551A3951F307CD2005144F5 /* ResponseModel */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		D551A3941F307CD2005144F5 /* RequestModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = RequestModel;
-			sourceTree = "<group>";
-		};
-		D551A3951F307CD2005144F5 /* ResponseModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ResponseModel;
-			sourceTree = "<group>";
-		};
-		D551A3961F307CD2005144F5 /* Presenters */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Presenters;
-			sourceTree = "<group>";
-		};
-		D551A3971F307CD2005144F5 /* ViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-				D551A3981F307CD2005144F5 /* Controllers */,
-				D551A39B1F307CD2005144F5 /* Views */,
-			);
-			path = ViewControllers;
-			sourceTree = "<group>";
-		};
-		D551A3981F307CD2005144F5 /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				D551A3991F307CD2005144F5 /* ViewController.h */,
-				D551A39A1F307CD2005144F5 /* ViewController.m */,
-			);
-			path = Controllers;
-			sourceTree = "<group>";
-		};
-		D551A39B1F307CD2005144F5 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		D551A39C1F307CD2005144F5 /* Login */ = {
-			isa = PBXGroup;
-			children = (
-				D551A39D1F307CD2005144F5 /* DataServices */,
-				D551A39E1F307CD2005144F5 /* Models */,
-				D551A3A11F307CD2005144F5 /* Presenters */,
-				D551A3A21F307CD2005144F5 /* ViewControllers */,
-			);
-			path = Login;
-			sourceTree = "<group>";
-		};
-		D551A39D1F307CD2005144F5 /* DataServices */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = DataServices;
-			sourceTree = "<group>";
-		};
-		D551A39E1F307CD2005144F5 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				D551A39F1F307CD2005144F5 /* RequestModel */,
-				D551A3A01F307CD2005144F5 /* ResponseModel */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		D551A39F1F307CD2005144F5 /* RequestModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = RequestModel;
-			sourceTree = "<group>";
-		};
-		D551A3A01F307CD2005144F5 /* ResponseModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ResponseModel;
-			sourceTree = "<group>";
-		};
-		D551A3A11F307CD2005144F5 /* Presenters */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Presenters;
-			sourceTree = "<group>";
-		};
-		D551A3A21F307CD2005144F5 /* ViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-				D551A3A31F307CD2005144F5 /* Controllers */,
-				D551A3A41F307CD2005144F5 /* Views */,
-			);
-			path = ViewControllers;
-			sourceTree = "<group>";
-		};
-		D551A3A31F307CD2005144F5 /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controllers;
-			sourceTree = "<group>";
-		};
-		D551A3A41F307CD2005144F5 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		D551A3A51F307CD2005144F5 /* NewFeature */ = {
-			isa = PBXGroup;
-			children = (
-				D551A3A61F307CD2005144F5 /* DataServices */,
-				D551A3A71F307CD2005144F5 /* Models */,
-				D551A3AA1F307CD2005144F5 /* Presenters */,
-				D551A3AB1F307CD2005144F5 /* ViewControllers */,
-			);
-			path = NewFeature;
-			sourceTree = "<group>";
-		};
-		D551A3A61F307CD2005144F5 /* DataServices */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = DataServices;
-			sourceTree = "<group>";
-		};
-		D551A3A71F307CD2005144F5 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				D551A3A81F307CD2005144F5 /* RequestModel */,
-				D551A3A91F307CD2005144F5 /* ResponseModel */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		D551A3A81F307CD2005144F5 /* RequestModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = RequestModel;
-			sourceTree = "<group>";
-		};
-		D551A3A91F307CD2005144F5 /* ResponseModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ResponseModel;
-			sourceTree = "<group>";
-		};
-		D551A3AA1F307CD2005144F5 /* Presenters */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Presenters;
-			sourceTree = "<group>";
-		};
-		D551A3AB1F307CD2005144F5 /* ViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-				D551A3AC1F307CD2005144F5 /* Controllers */,
-				D551A3AD1F307CD2005144F5 /* Views */,
-			);
-			path = ViewControllers;
-			sourceTree = "<group>";
-		};
-		D551A3AC1F307CD2005144F5 /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controllers;
-			sourceTree = "<group>";
-		};
-		D551A3AD1F307CD2005144F5 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		D551A3AE1F307CD2005144F5 /* Order */ = {
-			isa = PBXGroup;
-			children = (
-				D551A3AF1F307CD2005144F5 /* DataServices */,
-				D551A3B01F307CD2005144F5 /* Models */,
-				D551A3B31F307CD2005144F5 /* Presenters */,
-				D551A3B41F307CD2005144F5 /* ViewControllers */,
-			);
-			path = Order;
-			sourceTree = "<group>";
-		};
-		D551A3AF1F307CD2005144F5 /* DataServices */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = DataServices;
-			sourceTree = "<group>";
-		};
-		D551A3B01F307CD2005144F5 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				D551A3B11F307CD2005144F5 /* RequestModel */,
-				D551A3B21F307CD2005144F5 /* ResponseModel */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		D551A3B11F307CD2005144F5 /* RequestModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = RequestModel;
-			sourceTree = "<group>";
-		};
-		D551A3B21F307CD2005144F5 /* ResponseModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ResponseModel;
-			sourceTree = "<group>";
-		};
-		D551A3B31F307CD2005144F5 /* Presenters */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Presenters;
-			sourceTree = "<group>";
-		};
-		D551A3B41F307CD2005144F5 /* ViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-				D551A3B51F307CD2005144F5 /* Controllers */,
-				D551A3B61F307CD2005144F5 /* Views */,
-			);
-			path = ViewControllers;
-			sourceTree = "<group>";
-		};
-		D551A3B51F307CD2005144F5 /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controllers;
-			sourceTree = "<group>";
-		};
-		D551A3B61F307CD2005144F5 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		D551A3B71F307CD2005144F5 /* Users */ = {
-			isa = PBXGroup;
-			children = (
-				D551A3B81F307CD2005144F5 /* DataServices */,
-				D551A3B91F307CD2005144F5 /* Models */,
-				D551A3BC1F307CD2005144F5 /* Presenters */,
-				D551A3BD1F307CD2005144F5 /* ViewControllers */,
-			);
-			path = Users;
-			sourceTree = "<group>";
-		};
-		D551A3B81F307CD2005144F5 /* DataServices */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = DataServices;
-			sourceTree = "<group>";
-		};
-		D551A3B91F307CD2005144F5 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				D551A3BA1F307CD2005144F5 /* RequestModel */,
-				D551A3BB1F307CD2005144F5 /* ResponseModel */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		D551A3BA1F307CD2005144F5 /* RequestModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = RequestModel;
-			sourceTree = "<group>";
-		};
-		D551A3BB1F307CD2005144F5 /* ResponseModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ResponseModel;
-			sourceTree = "<group>";
-		};
-		D551A3BC1F307CD2005144F5 /* Presenters */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Presenters;
-			sourceTree = "<group>";
-		};
-		D551A3BD1F307CD2005144F5 /* ViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-				D551A3BE1F307CD2005144F5 /* Controllers */,
-				D551A3BF1F307CD2005144F5 /* Views */,
-			);
-			path = ViewControllers;
-			sourceTree = "<group>";
-		};
-		D551A3BE1F307CD2005144F5 /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controllers;
-			sourceTree = "<group>";
-		};
-		D551A3BF1F307CD2005144F5 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Views;
 			sourceTree = "<group>";
 		};
 		D551A3C01F307CD2005144F5 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				D5131E701F31C212009543AD /* RYChoseViewController.h */,
+				D5131E711F31C212009543AD /* RYChoseViewController.m */,
+				D5131E761F31C793009543AD /* RYSaveDataLocationUtil.h */,
+				D5131E771F31C793009543AD /* RYSaveDataLocationUtil.m */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -706,9 +745,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D551A36F1F307C8D005144F5 /* Build configuration list for PBXNativeTarget "XquHome_Teacher" */;
 			buildPhases = (
+				6D8D28AF6E49C5C8F8D004BC /* [CP] Check Pods Manifest.lock */,
 				D551A33E1F307C8D005144F5 /* Sources */,
 				D551A33F1F307C8D005144F5 /* Frameworks */,
 				D551A3401F307C8D005144F5 /* Resources */,
+				CFB93F07D1C7D974F3392911 /* [CP] Embed Pods Frameworks */,
+				38FE84E7C61418055BD66A5B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -761,6 +803,7 @@
 		D551A33A1F307C8D005144F5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = RY;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = Rainer;
 				TargetAttributes = {
@@ -828,16 +871,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		38FE84E7C61418055BD66A5B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XquHome_Teacher/Pods-XquHome_Teacher-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D8D28AF6E49C5C8F8D004BC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CFB93F07D1C7D974F3392911 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XquHome_Teacher/Pods-XquHome_Teacher-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D551A33E1F307C8D005144F5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5131E6C1F31A72C009543AD /* RYBarButton.m in Sources */,
+				D5131E631F31A506009543AD /* RYUserViewController.m in Sources */,
+				D5131E6F1F31A771009543AD /* UIView+Extension.m in Sources */,
+				D5131E751F31C72A009543AD /* RYNewFeatureViewController.m in Sources */,
 				D551A3CF1F308569005144F5 /* UIImage+Extension.m in Sources */,
 				D551A3D21F30880E005144F5 /* UIColor+Extension.m in Sources */,
-				D551A3C51F307CD2005144F5 /* ViewController.m in Sources */,
+				D5131E5A1F31A4BD009543AD /* RYLoginViewController.m in Sources */,
+				D5131E721F31C212009543AD /* RYChoseViewController.m in Sources */,
+				D5131E601F31A4F9009543AD /* RYOrderViewController.m in Sources */,
+				D5131E691F31A5EF009543AD /* RYTabBar.m in Sources */,
 				D551A3C31F307CD2005144F5 /* main.m in Sources */,
+				D5131E661F31A5A1009543AD /* RYTabBarController.m in Sources */,
+				D5131E7B1F31CE6A009543AD /* RYNewFeatureCollectionViewCell.m in Sources */,
 				D551A3C81F308114005144F5 /* RYNavigationController.m in Sources */,
+				D5131E5D1F31A4DF009543AD /* RYHomeViewController.m in Sources */,
+				D5131E781F31C793009543AD /* RYSaveDataLocationUtil.m in Sources */,
 				D551A3C21F307CD2005144F5 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -968,6 +1070,7 @@
 		};
 		D551A3701F307C8D005144F5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFEDC0E36DDF2B2D282F4442 /* Pods-XquHome_Teacher.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -983,6 +1086,7 @@
 		};
 		D551A3711F307C8D005144F5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27476F8BF253027A8B89E7BE /* Pods-XquHome_Teacher.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -1065,6 +1169,7 @@
 				D551A3711F307C8D005144F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D551A3721F307C8D005144F5 /* Build configuration list for PBXNativeTarget "XquHome_TeacherTests" */ = {
 			isa = XCConfigurationList;
@@ -1073,6 +1178,7 @@
 				D551A3741F307C8D005144F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D551A3751F307C8D005144F5 /* Build configuration list for PBXNativeTarget "XquHome_TeacherUITests" */ = {
 			isa = XCConfigurationList;
@@ -1081,6 +1187,7 @@
 				D551A3771F307C8D005144F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

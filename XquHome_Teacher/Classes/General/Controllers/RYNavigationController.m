@@ -76,7 +76,7 @@
         viewController.hidesBottomBarWhenPushed = YES;
         
         // 1.2.设置统一的非根控制器返回按钮的背景图片
-        viewController.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageWithRenderingModeAlwaysOriginal:@"navBar_back"] style:UIBarButtonItemStylePlain target:self action:@selector(backBarButtonItemClickAction:)];
+        viewController.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageWithRenderingModeAlwaysOriginal:@"navigation_back"] style:UIBarButtonItemStylePlain target:self action:@selector(backBarButtonItemClickAction:)];
     }
     
     // 2.调用super的该方法实现跳转（这里必须放在最后，否则在根控制器时就会隐藏底部视图）

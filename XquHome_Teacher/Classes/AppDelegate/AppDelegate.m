@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "ViewController.h"
+#import "RYChoseViewController.h"
 
 @interface AppDelegate ()
 
@@ -28,7 +28,7 @@
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     
     // 2.设置window的根控制器为TabBarController
-    self.window.rootViewController = [[ViewController alloc] init];
+    self.window.rootViewController = [RYChoseViewController choseKeyWindowRootViewController];
     
     // 3.显示窗口
     [self.window makeKeyAndVisible];
