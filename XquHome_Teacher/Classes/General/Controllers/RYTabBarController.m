@@ -26,7 +26,7 @@
     [super viewDidLoad];
     
     // 1.设置所有的子控制器
-    [self setUpAllChildViewControllers];
+    [self setupAllChildViewControllers];
     
     // 2.设置tabBar
     self.customTabBar.items = self.itemArray;
@@ -59,36 +59,36 @@
 /**
  *  设置所有的子控制器
  */
-- (void)setUpAllChildViewControllers {
+- (void)setupAllChildViewControllers {
     // 1.首页
     RYHomeViewController *homeTableViewController = [[RYHomeViewController alloc] init];
-    [self setUpChildViewController:homeTableViewController itemTitle:@"首页" imageName:@"Tabbar_home_normal" selectImageName:@"Tabbar_home_selected"];
+    [self setupChildViewController:homeTableViewController itemTitle:@"首页" imageName:@"Tabbar_home_normal" selectImageName:@"Tabbar_home_selected"];
     
     // 2.订单
     RYOrderViewController *orderViewController = [[RYOrderViewController alloc] init];
-    [self setUpChildViewController:orderViewController itemTitle:@"订单" imageName:@"Tabbar_order_normal" selectImageName:@"Tabbar_order_selected"];
+    [self setupChildViewController:orderViewController itemTitle:@"订单" imageName:@"Tabbar_order_normal" selectImageName:@"Tabbar_order_selected"];
 
     // 3.我的
     RYUserViewController *userViewController = [[RYUserViewController alloc] init];
-    [self setUpChildViewController:userViewController itemTitle:@"我的" imageName:@"Tabbar_me_normal" selectImageName:@"Tabbar_me_selected"];
+    [self setupChildViewController:userViewController itemTitle:@"我的" imageName:@"Tabbar_me_normal" selectImageName:@"Tabbar_me_selected"];
 }
 
 /**
  *  给控制器添加子控制器
  */
-- (void)setUpChildViewController:(UIViewController *)viewController itemTitle:(NSString *)title imageName:(NSString *)imageName selectImageName:(NSString *)selectImageName {
+- (void)setupChildViewController:(UIViewController *)viewController itemTitle:(NSString *)title imageName:(NSString *)imageName selectImageName:(NSString *)selectImageName {
     // 1.设置控制器tabBar的按钮属性
     viewController.tabBarItem.image = [UIImage imageNamed:imageName];
     viewController.tabBarItem.selectedImage = [UIImage imageNamed:selectImageName];
     viewController.tabBarItem.title = title;
     
-//    viewController.navigationItem.title = title;
+    viewController.navigationItem.title = title;
     
     // 2.给自定义的tabBar属性复制
     [self.itemArray addObject:viewController.tabBarItem];
     
     // 3.创建一个导航控制器对象，把控制器设置根控制器
-    UINavigationController *navigationController = [[RYNavigationController alloc] initWithRootViewController:viewController];
+    RYNavigationController *navigationController = [[RYNavigationController alloc] initWithRootViewController:viewController];
     
     // 4.将控制器作为当前的子控制器
     [self addChildViewController:navigationController];
@@ -100,7 +100,7 @@
 - (RYTabBar *)customTabBar {
     if (nil == _customTabBar) {
         // 1.把控制器的系统tabBar移除，这里调用移除操作并不会马上销毁，一般在下一次运行循环的时候就会判断这个对象有没有抢引用，如果没有才会销毁
-        //        [self.tabBar removeFromSuperview];
+//        [self.tabBar removeFromSuperview];
         
         // 2.创建一个自定义的TabBar对象
         RYTabBar *tabBar = [[RYTabBar alloc] init];

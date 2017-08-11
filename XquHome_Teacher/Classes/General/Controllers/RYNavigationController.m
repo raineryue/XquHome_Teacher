@@ -8,6 +8,8 @@
 
 #import "RYNavigationController.h"
 
+UIColor *MainNavBarColor = nil;
+
 @interface RYNavigationController () <UIGestureRecognizerDelegate>
 
 @end
@@ -16,42 +18,22 @@
 
 #pragma mark - 控制器加载
 /**
- *  加载类的时候调用
- *  当程序已启动的时候就会掉用该方法（在main函数前面掉用）
- */
-+ (void)load {
-    
-}
-
-/**
- *  当前类或者其子类第一次使用的时候才会掉用
- */
-+ (void)initialize {
-    // 1.获取当前使用类下的导航条:以后经常用这个，因为有些导航条的样式是不需要修改的，如：调用相册时
-    UINavigationBar *navigationBar = [UINavigationBar appearanceWhenContainedIn:self, nil];
-    
-    // 2.设置导航条的背景颜色
-//    [navigationBar ry_setBackgroundColor:[UIColor colorWithHexString:@"#69B93A"]];
-    
-    // 3.设置导航条标题颜色
-    // 3.1.标题富文本属性设置
-    NSMutableDictionary *titleTextAttributes = [NSMutableDictionary dictionary];
-    
-    titleTextAttributes[NSForegroundColorAttributeName] = RYColorForHex(@"#FFFFFF");
-    titleTextAttributes[NSFontAttributeName] = RYChineseFontSize(18.0);
-    
-    [navigationBar setTitleTextAttributes:titleTextAttributes];
-    
-    // 4.设置导航栏的主题颜色
-    [navigationBar setTintColor:[UIColor whiteColor]];
-}
-
-/**
  *  控制器视图加载完成
  */
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    // 设置手势返回
+    [self setupGestureRecognizer];
+    
+    // 设置导航栏样式
+    [self setupNavBarAppearence];
+}
+
+/**
+ 设置手势返回
+ */
+- (void)setupGestureRecognizer {
     // 其实这里的self.interactivePopGestureRecognizer.delegate即为系统滑动返回手势的target，可以省掉以上使用运行时的代码
     // 自定义滑动手势（用来实现滑动返回功能，非系统提供的边缘滑动返回）
 #pragma clang diagnostic push
@@ -63,6 +45,33 @@
     
     // 添加自定义手势到视图上
     [self.view addGestureRecognizer:panGestureRecognizer];
+}
+
+/**
+ 设置导航栏样式
+ */
+- (void)setupNavBarAppearence {
+    MainNavBarColor = RYColorForRGB(0, 175, 240);
+    
+    // 设置导航栏默认的背景颜色
+    [UIColor wr_setDefaultNavBarBarTintColor:MainNavBarColor];
+    // 设置导航栏所有按钮的默认颜色
+    [UIColor wr_setDefaultNavBarTintColor:[UIColor whiteColor]];
+    // 设置导航栏标题默认颜色
+    [UIColor wr_setDefaultNavBarTitleColor:[UIColor whiteColor]];
+    // 统一设置状态栏样式
+    [UIColor wr_setDefaultStatusBarStyle:UIStatusBarStyleLightContent];
+    // 如果需要设置导航栏底部分割线隐藏，可以在这里统一设置
+    // [UIColor wr_setDefaultNavBarShadowImageHidden:YES];
+    
+//    // 3.设置导航条标题颜色
+//    // 3.1.标题富文本属性设置
+//    NSMutableDictionary *titleTextAttributes = [NSMutableDictionary dictionary];
+//
+//    titleTextAttributes[NSForegroundColorAttributeName] = RYColorForHex(@"#FFFFFF");
+//    titleTextAttributes[NSFontAttributeName] = RYChineseFontSize(18.0);
+//
+//    [navigationBar setTitleTextAttributes:titleTextAttributes];
 }
 
 #pragma mark - 父类方法重写
@@ -100,7 +109,6 @@
 - (void)backBarButtonItemClickAction:(UIBarButtonItem *)backBarButtonItem {
     [self popViewControllerAnimated:YES];
 }
-
 
 @end
 

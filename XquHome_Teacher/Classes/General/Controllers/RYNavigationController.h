@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+FOUNDATION_EXTERN UIColor *MainNavBarColor;
+
 @interface RYNavigationController : UINavigationController
 
 @end

@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  RYAppDelegate.h
 //  XquHome_Teacher
 //
 //  Created by Rainer on 2017/8/1.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface RYAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 

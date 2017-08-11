@@ -48,4 +48,59 @@
  */
 + (instancetype)imageWithImage:(UIImage *)image border:(CGFloat)border borderColor:(UIColor *)color;
 
+/**
+ 根据主题颜色初始化图片
+ 
+ @param color 颜色
+ @return 图片
+ */
+- (instancetype)imageWithTintColor:(UIColor *)color;
+
+/**
+ 根据主题颜色和透明度初始化图片
+ 
+ @param color 颜色
+ @param alpha 透明度
+ @return 图片
+ */
+- (instancetype)imageWithTintColor:(UIColor *)color alpha:(CGFloat)alpha;
+
+/**
+ 根据主题颜色和位置大小初始化图片
+ 
+ @param color 颜色
+ @param rect 位置大小
+ @return 图片
+ */
+- (instancetype)imageWithTintColor:(UIColor *)color rect:(CGRect)rect;
+
+/**
+ 根据主题颜色和内边距初始化图片
+ 
+ @param color 颜色
+ @param insets 内边距
+ @return 图片
+ */
+- (instancetype)imageWithTintColor:(UIColor *)color insets:(UIEdgeInsets)insets;
+
+/**
+ 根据主题颜色、透明度和内边距初始化图片
+ 
+ @param color 颜色
+ @param alpha 透明度
+ @param insets 内边距
+ @return 图片
+ */
+- (instancetype)imageWithTintColor:(UIColor *)color alpha:(CGFloat)alpha insets:(UIEdgeInsets)insets;
+
+/**
+ 根据主题颜色、透明度和位置大小初始化图片
+ 
+ @param color 主题颜色
+ @param alpha 透明度
+ @param rect 位置大小
+ @return 图片
+ */
+- (instancetype)imageWithTintColor:(UIColor *)color alpha:(CGFloat)alpha rect:(CGRect)rect;
+
 @end

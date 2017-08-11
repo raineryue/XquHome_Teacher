@@ -17,5 +17,6 @@
 // 2.程序应用级别宏键
 #import "RYApplicationMacro.h"
 #import "RYNavigationMacro.h"
+#import "WRNavigationBar.h"
 
 #endif /* XquHomePrefix_h */

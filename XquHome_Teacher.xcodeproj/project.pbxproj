@@ -20,10 +20,12 @@
 		D5131E751F31C72A009543AD /* RYNewFeatureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5131E741F31C72A009543AD /* RYNewFeatureViewController.m */; };
 		D5131E781F31C793009543AD /* RYSaveDataLocationUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = D5131E771F31C793009543AD /* RYSaveDataLocationUtil.m */; };
 		D5131E7B1F31CE6A009543AD /* RYNewFeatureCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D5131E7A1F31CE6A009543AD /* RYNewFeatureCollectionViewCell.m */; };
+		D5131E811F32F93B009543AD /* RYAppDelegateExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = D5131E801F32F93B009543AD /* RYAppDelegateExtension.m */; };
+		D5131E851F3307C6009543AD /* WRNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = D5131E841F3307C6009543AD /* WRNavigationBar.m */; };
 		D551A3521F307C8D005144F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D551A3511F307C8D005144F5 /* Assets.xcassets */; };
 		D551A3601F307C8D005144F5 /* XquHome_TeacherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D551A35F1F307C8D005144F5 /* XquHome_TeacherTests.m */; };
 		D551A36B1F307C8D005144F5 /* XquHome_TeacherUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D551A36A1F307C8D005144F5 /* XquHome_TeacherUITests.m */; };
-		D551A3C21F307CD2005144F5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D551A37B1F307CD2005144F5 /* AppDelegate.m */; };
+		D551A3C21F307CD2005144F5 /* RYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D551A37B1F307CD2005144F5 /* RYAppDelegate.m */; };
 		D551A3C31F307CD2005144F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D551A37D1F307CD2005144F5 /* main.m */; };
 		D551A3C81F308114005144F5 /* RYNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D551A3C71F308114005144F5 /* RYNavigationController.m */; };
 		D551A3CF1F308569005144F5 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = D551A3CE1F308569005144F5 /* UIImage+Extension.m */; };
@@ -75,6 +77,10 @@
 		D5131E771F31C793009543AD /* RYSaveDataLocationUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYSaveDataLocationUtil.m; sourceTree = "<group>"; };
 		D5131E791F31CE6A009543AD /* RYNewFeatureCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYNewFeatureCollectionViewCell.h; sourceTree = "<group>"; };
 		D5131E7A1F31CE6A009543AD /* RYNewFeatureCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYNewFeatureCollectionViewCell.m; sourceTree = "<group>"; };
+		D5131E7F1F32F93B009543AD /* RYAppDelegateExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYAppDelegateExtension.h; sourceTree = "<group>"; };
+		D5131E801F32F93B009543AD /* RYAppDelegateExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYAppDelegateExtension.m; sourceTree = "<group>"; };
+		D5131E831F3307C6009543AD /* WRNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRNavigationBar.h; sourceTree = "<group>"; };
+		D5131E841F3307C6009543AD /* WRNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WRNavigationBar.m; sourceTree = "<group>"; };
 		D551A3421F307C8D005144F5 /* XquHome_Teacher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XquHome_Teacher.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D551A3511F307C8D005144F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D551A35B1F307C8D005144F5 /* XquHome_TeacherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XquHome_TeacherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -83,8 +89,8 @@
 		D551A3661F307C8D005144F5 /* XquHome_TeacherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XquHome_TeacherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D551A36A1F307C8D005144F5 /* XquHome_TeacherUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XquHome_TeacherUITests.m; sourceTree = "<group>"; };
 		D551A36C1F307C8D005144F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D551A37A1F307CD2005144F5 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		D551A37B1F307CD2005144F5 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D551A37A1F307CD2005144F5 /* RYAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYAppDelegate.h; sourceTree = "<group>"; };
+		D551A37B1F307CD2005144F5 /* RYAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYAppDelegate.m; sourceTree = "<group>"; };
 		D551A37D1F307CD2005144F5 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D551A38E1F307CD2005144F5 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D551A3C61F308114005144F5 /* RYNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYNavigationController.h; sourceTree = "<group>"; };
@@ -468,6 +474,15 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		D5131E821F3307C6009543AD /* WRNavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				D5131E831F3307C6009543AD /* WRNavigationBar.h */,
+				D5131E841F3307C6009543AD /* WRNavigationBar.m */,
+			);
+			path = WRNavigationBar;
+			sourceTree = "<group>";
+		};
 		D551A3391F307C8D005144F5 = {
 			isa = PBXGroup;
 			children = (
@@ -543,8 +558,10 @@
 		D551A3791F307CD2005144F5 /* AppDelegate */ = {
 			isa = PBXGroup;
 			children = (
-				D551A37A1F307CD2005144F5 /* AppDelegate.h */,
-				D551A37B1F307CD2005144F5 /* AppDelegate.m */,
+				D551A37A1F307CD2005144F5 /* RYAppDelegate.h */,
+				D551A37B1F307CD2005144F5 /* RYAppDelegate.m */,
+				D5131E7F1F32F93B009543AD /* RYAppDelegateExtension.h */,
+				D5131E801F32F93B009543AD /* RYAppDelegateExtension.m */,
 			);
 			path = AppDelegate;
 			sourceTree = "<group>";
@@ -734,6 +751,7 @@
 		D551A3C11F307CD2005144F5 /* Venders */ = {
 			isa = PBXGroup;
 			children = (
+				D5131E821F3307C6009543AD /* WRNavigationBar */,
 			);
 			path = Venders;
 			sourceTree = "<group>";
@@ -926,6 +944,7 @@
 			files = (
 				D5131E6C1F31A72C009543AD /* RYBarButton.m in Sources */,
 				D5131E631F31A506009543AD /* RYUserViewController.m in Sources */,
+				D5131E851F3307C6009543AD /* WRNavigationBar.m in Sources */,
 				D5131E6F1F31A771009543AD /* UIView+Extension.m in Sources */,
 				D5131E751F31C72A009543AD /* RYNewFeatureViewController.m in Sources */,
 				D551A3CF1F308569005144F5 /* UIImage+Extension.m in Sources */,
@@ -937,10 +956,11 @@
 				D551A3C31F307CD2005144F5 /* main.m in Sources */,
 				D5131E661F31A5A1009543AD /* RYTabBarController.m in Sources */,
 				D5131E7B1F31CE6A009543AD /* RYNewFeatureCollectionViewCell.m in Sources */,
+				D5131E811F32F93B009543AD /* RYAppDelegateExtension.m in Sources */,
 				D551A3C81F308114005144F5 /* RYNavigationController.m in Sources */,
 				D5131E5D1F31A4DF009543AD /* RYHomeViewController.m in Sources */,
 				D5131E781F31C793009543AD /* RYSaveDataLocationUtil.m in Sources */,
-				D551A3C21F307CD2005144F5 /* AppDelegate.m in Sources */,
+				D551A3C21F307CD2005144F5 /* RYAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

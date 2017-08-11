@@ -1,19 +1,19 @@
 //
-//  AppDelegate.m
+//  RYAppDelegate.m
 //  XquHome_Teacher
 //
 //  Created by Rainer on 2017/8/1.
 //  Copyright © 2017年 Rainer. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "RYAppDelegate.h"
 #import "RYChoseViewController.h"
 
-@interface AppDelegate ()
+@interface RYAppDelegate ()
 
 @end
 
-@implementation AppDelegate
+@implementation RYAppDelegate
 
 
 /**
